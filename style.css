@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    border-radius: 0 0 8px 8px;
+}
+
+header h1{
+    margin: 0;
+    font-size: 28px;
+    border-radius: 1px;
+}
+
+.container {
+    width: 70%;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background: #007bff;
+    color: #fff;
+}
+
+.btn {
+    padding: 6px 12px;
+    text-decoration: none;
+    color: white;
+    background: #007bff;
+    border-radius: 4px;
+    margin: 2px;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+.btn.danger {
+    background: #dc3545;
+}
+
+.btn.danger:hover {
+    background: #a71d2a;
+}
+
+form label {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+}
+
+form input {
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 60%;
+}
+
+button.btn {
+    border: none;
+    cursor: pointer;
+}
